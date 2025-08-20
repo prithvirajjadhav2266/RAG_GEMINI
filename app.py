@@ -24,7 +24,7 @@ print("[DEBUG] Embedding model loaded.")
 
 # Gemini API setup (replace with your actual Gemini API endpoint and key)
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-GEMINI_API_KEY = "AIzaSyDRGyz2pTGuSq7mLXeZj61zw9P1wfH-jFs"
+GEMINI_API_KEY = ""
 
 def get_gemini_answer(context, question):
     headers = {"Content-Type": "application/json"}
